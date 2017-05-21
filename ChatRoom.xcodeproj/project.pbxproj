@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCFBC201ED231A9009CC89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */; };
+		CFCFBC221ED231A9009CC89F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFBC211ED231A9009CC89F /* ViewController.swift */; };
+		CFCFBC251ED231A9009CC89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCFBC231ED231A9009CC89F /* Main.storyboard */; };
+		CFCFBC271ED231A9009CC89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCFBC261ED231A9009CC89F /* Assets.xcassets */; };
+		CFCFBC2A1ED231A9009CC89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCFBC281ED231A9009CC89F /* LaunchScreen.storyboard */; };
+		CFCFBC351ED231AA009CC89F /* ChatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFBC341ED231AA009CC89F /* ChatRoomTests.swift */; };
+		CFCFBC401ED231AA009CC89F /* ChatRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFBC3F1ED231AA009CC89F /* ChatRoomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCFBC311ED231AA009CC89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCFBC141ED231A9009CC89F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCFBC1B1ED231A9009CC89F;
+			remoteInfo = ChatRoom;
+		};
+		CFCFBC3C1ED231AA009CC89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCFBC141ED231A9009CC89F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCFBC1B1ED231A9009CC89F;
+			remoteInfo = ChatRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCFBC1C1ED231A9009CC89F /* ChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCFBC211ED231A9009CC89F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFCFBC241ED231A9009CC89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCFBC261ED231A9009CC89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCFBC291ED231A9009CC89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCFBC2B1ED231AA009CC89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCFBC301ED231AA009CC89F /* ChatRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCFBC341ED231AA009CC89F /* ChatRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTests.swift; sourceTree = "<group>"; };
+		CFCFBC361ED231AA009CC89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCFBC3B1ED231AA009CC89F /* ChatRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCFBC3F1ED231AA009CC89F /* ChatRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomUITests.swift; sourceTree = "<group>"; };
+		CFCFBC411ED231AA009CC89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCFBC191ED231A9009CC89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC2D1ED231AA009CC89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC381ED231AA009CC89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCFBC131ED231A9009CC89F = {
+			isa = PBXGroup;
+			children = (
+				CFCFBC1E1ED231A9009CC89F /* ChatRoom */,
+				CFCFBC331ED231AA009CC89F /* ChatRoomTests */,
+				CFCFBC3E1ED231AA009CC89F /* ChatRoomUITests */,
+				CFCFBC1D1ED231A9009CC89F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCFBC1D1ED231A9009CC89F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFBC1C1ED231A9009CC89F /* ChatRoom.app */,
+				CFCFBC301ED231AA009CC89F /* ChatRoomTests.xctest */,
+				CFCFBC3B1ED231AA009CC89F /* ChatRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCFBC1E1ED231A9009CC89F /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */,
+				CFCFBC211ED231A9009CC89F /* ViewController.swift */,
+				CFCFBC231ED231A9009CC89F /* Main.storyboard */,
+				CFCFBC261ED231A9009CC89F /* Assets.xcassets */,
+				CFCFBC281ED231A9009CC89F /* LaunchScreen.storyboard */,
+				CFCFBC2B1ED231AA009CC89F /* Info.plist */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		CFCFBC331ED231AA009CC89F /* ChatRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFBC341ED231AA009CC89F /* ChatRoomTests.swift */,
+				CFCFBC361ED231AA009CC89F /* Info.plist */,
+			);
+			path = ChatRoomTests;
+			sourceTree = "<group>";
+		};
+		CFCFBC3E1ED231AA009CC89F /* ChatRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFBC3F1ED231AA009CC89F /* ChatRoomUITests.swift */,
+				CFCFBC411ED231AA009CC89F /* Info.plist */,
+			);
+			path = ChatRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCFBC1B1ED231A9009CC89F /* ChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCFBC441ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoom" */;
+			buildPhases = (
+				CFCFBC181ED231A9009CC89F /* Sources */,
+				CFCFBC191ED231A9009CC89F /* Frameworks */,
+				CFCFBC1A1ED231A9009CC89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatRoom;
+			productName = ChatRoom;
+			productReference = CFCFBC1C1ED231A9009CC89F /* ChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCFBC2F1ED231AA009CC89F /* ChatRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCFBC471ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoomTests" */;
+			buildPhases = (
+				CFCFBC2C1ED231AA009CC89F /* Sources */,
+				CFCFBC2D1ED231AA009CC89F /* Frameworks */,
+				CFCFBC2E1ED231AA009CC89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCFBC321ED231AA009CC89F /* PBXTargetDependency */,
+			);
+			name = ChatRoomTests;
+			productName = ChatRoomTests;
+			productReference = CFCFBC301ED231AA009CC89F /* ChatRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCFBC3A1ED231AA009CC89F /* ChatRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCFBC4A1ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoomUITests" */;
+			buildPhases = (
+				CFCFBC371ED231AA009CC89F /* Sources */,
+				CFCFBC381ED231AA009CC89F /* Frameworks */,
+				CFCFBC391ED231AA009CC89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCFBC3D1ED231AA009CC89F /* PBXTargetDependency */,
+			);
+			name = ChatRoomUITests;
+			productName = ChatRoomUITests;
+			productReference = CFCFBC3B1ED231AA009CC89F /* ChatRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCFBC141ED231A9009CC89F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trevor Rose";
+				TargetAttributes = {
+					CFCFBC1B1ED231A9009CC89F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+					};
+					CFCFBC2F1ED231AA009CC89F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFCFBC1B1ED231A9009CC89F;
+					};
+					CFCFBC3A1ED231AA009CC89F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFCFBC1B1ED231A9009CC89F;
+					};
+				};
+			};
+			buildConfigurationList = CFCFBC171ED231A9009CC89F /* Build configuration list for PBXProject "ChatRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCFBC131ED231A9009CC89F;
+			productRefGroup = CFCFBC1D1ED231A9009CC89F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCFBC1B1ED231A9009CC89F /* ChatRoom */,
+				CFCFBC2F1ED231AA009CC89F /* ChatRoomTests */,
+				CFCFBC3A1ED231AA009CC89F /* ChatRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCFBC1A1ED231A9009CC89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFBC2A1ED231A9009CC89F /* LaunchScreen.storyboard in Resources */,
+				CFCFBC271ED231A9009CC89F /* Assets.xcassets in Resources */,
+				CFCFBC251ED231A9009CC89F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC2E1ED231AA009CC89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC391ED231AA009CC89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCFBC181ED231A9009CC89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFBC221ED231A9009CC89F /* ViewController.swift in Sources */,
+				CFCFBC201ED231A9009CC89F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC2C1ED231AA009CC89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFBC351ED231AA009CC89F /* ChatRoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCFBC371ED231AA009CC89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCFBC401ED231AA009CC89F /* ChatRoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCFBC321ED231AA009CC89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCFBC1B1ED231A9009CC89F /* ChatRoom */;
+			targetProxy = CFCFBC311ED231AA009CC89F /* PBXContainerItemProxy */;
+		};
+		CFCFBC3D1ED231AA009CC89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCFBC1B1ED231A9009CC89F /* ChatRoom */;
+			targetProxy = CFCFBC3C1ED231AA009CC89F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCFBC231ED231A9009CC89F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCFBC241ED231A9009CC89F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCFBC281ED231A9009CC89F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCFBC291ED231A9009CC89F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCFBC421ED231AA009CC89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCFBC431ED231AA009CC89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCFBC451ED231AA009CC89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFCFBC461ED231AA009CC89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFCFBC481ED231AA009CC89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoom.app/ChatRoom";
+			};
+			name = Debug;
+		};
+		CFCFBC491ED231AA009CC89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoom.app/ChatRoom";
+			};
+			name = Release;
+		};
+		CFCFBC4B1ED231AA009CC89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChatRoom;
+			};
+			name = Debug;
+		};
+		CFCFBC4C1ED231AA009CC89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = ChatRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.ChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChatRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCFBC171ED231A9009CC89F /* Build configuration list for PBXProject "ChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFBC421ED231AA009CC89F /* Debug */,
+				CFCFBC431ED231AA009CC89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCFBC441ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFBC451ED231AA009CC89F /* Debug */,
+				CFCFBC461ED231AA009CC89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCFBC471ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFBC481ED231AA009CC89F /* Debug */,
+				CFCFBC491ED231AA009CC89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCFBC4A1ED231AA009CC89F /* Build configuration list for PBXNativeTarget "ChatRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFBC4B1ED231AA009CC89F /* Debug */,
+				CFCFBC4C1ED231AA009CC89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCFBC141ED231A9009CC89F /* Project object */;
+}
