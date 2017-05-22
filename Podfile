@@ -11,6 +11,7 @@ target 'ChatRoom' do
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   pod 'Firebase/AdMob'
+  pod 'GoogleSignIn'
   pod 'SwiftKeychainWrapper'
 
   target 'ChatRoomTests' do

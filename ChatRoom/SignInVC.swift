@@ -7,23 +7,59 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
-class SignInVC: UIViewController {
+class SignInVC: UIViewController, UITextFieldDelegate, GIDSignInUIDelegate {
 
+    @IBOutlet weak var usernameBox: UITextField!
+    @IBOutlet weak var passwordBox: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.usernameBox.delegate = self
+        self.passwordBox.delegate = self
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
         // Do any additional setup after loading the view.
     }
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
+    // ...
+    if let error = error {
+    print(error)
+    return
+    }
+    
+            guard let authentication = user.authentication else { return }
+            let credential = FIRGoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                                accessToken: authentication.accessToken)
+            FIRAuth.auth()?.signIn(with: credential) { (user, error) in
+    // ...
+        if let error = error {
+            print(error)
+            return
+            }
+        }
+    }
 
+
+    @IBAction func googleSignIn(_ sender: Any) {
+        GIDSignIn.sharedInstance().signIn()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func resignKeyboard(sender: AnyObject) {
-        _ = sender.resignFirstResponder()
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
+    
+    
     /*
     // MARK: - Navigation
 

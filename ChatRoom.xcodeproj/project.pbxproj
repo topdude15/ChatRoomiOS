@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6C71E2278AE8AD16798ABDFF /* Pods_ChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CFE88DC622735B6FD02486 /* Pods_ChatRoom.framework */; };
 		C99AE90DC4E5F18B2AB3E68A /* Pods_ChatRoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8974A984AABECB33C07E7DC5 /* Pods_ChatRoomTests.framework */; };
+		CF0C01D11ED23DA000EC8A67 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C01D01ED23DA000EC8A67 /* FancyButton.swift */; };
+		CF46365E1ED269C3005AAF51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF46365D1ED269C3005AAF51 /* GoogleService-Info.plist */; };
 		CFCFBC201ED231A9009CC89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */; };
 		CFCFBC251ED231A9009CC89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCFBC231ED231A9009CC89F /* Main.storyboard */; };
 		CFCFBC271ED231A9009CC89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCFBC261ED231A9009CC89F /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 		448BAAFD08F0CB0D9DABEA28 /* Pods-ChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatRoom/Pods-ChatRoom.release.xcconfig"; sourceTree = "<group>"; };
 		698563C41BDE53CA7BDAD8A2 /* Pods-ChatRoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoomUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatRoomUITests/Pods-ChatRoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8974A984AABECB33C07E7DC5 /* Pods_ChatRoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatRoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0C01D01ED23DA000EC8A67 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		CF46365D1ED269C3005AAF51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFCFBC1C1ED231A9009CC89F /* ChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFCFBC241ED231A9009CC89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +116,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF0C01CD1ED23BF700EC8A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF0C01D01ED23DA000EC8A67 /* FancyButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		CFCFBC131ED231A9009CC89F = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +149,12 @@
 		CFCFBC1E1ED231A9009CC89F /* ChatRoom */ = {
 			isa = PBXGroup;
 			children = (
-				CFCFBC4D1ED23390009CC89F /* Views */,
+				CF0C01CD1ED23BF700EC8A67 /* View */,
+				CFCFBC4D1ED23390009CC89F /* Controller */,
 				CFCFBC1F1ED231A9009CC89F /* AppDelegate.swift */,
 				CFCFBC231ED231A9009CC89F /* Main.storyboard */,
 				CFCFBC261ED231A9009CC89F /* Assets.xcassets */,
+				CF46365D1ED269C3005AAF51 /* GoogleService-Info.plist */,
 				CFCFBC281ED231A9009CC89F /* LaunchScreen.storyboard */,
 				CFCFBC2B1ED231AA009CC89F /* Info.plist */,
 			);
@@ -165,12 +179,12 @@
 			path = ChatRoomUITests;
 			sourceTree = "<group>";
 		};
-		CFCFBC4D1ED23390009CC89F /* Views */ = {
+		CFCFBC4D1ED23390009CC89F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CFCFBC4E1ED233B6009CC89F /* SignInVC.swift */,
 			);
-			name = Views;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFCFBC2A1ED231A9009CC89F /* LaunchScreen.storyboard in Resources */,
+				CF46365E1ED269C3005AAF51 /* GoogleService-Info.plist in Resources */,
 				CFCFBC271ED231A9009CC89F /* Assets.xcassets in Resources */,
 				CFCFBC251ED231A9009CC89F /* Main.storyboard in Resources */,
 			);
@@ -457,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0C01D11ED23DA000EC8A67 /* FancyButton.swift in Sources */,
 				CFCFBC4F1ED233B6009CC89F /* SignInVC.swift in Sources */,
 				CFCFBC201ED231A9009CC89F /* AppDelegate.swift in Sources */,
 			);

@@ -25,36 +25,66 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="z7N-cU-jvS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ooG-on-6sg">
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ooG-on-6sg">
                                 <rect key="frame" x="35" y="246" width="305" height="45"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-8H-WHA">
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-8H-WHA">
                                 <rect key="frame" x="35" y="182" width="305" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="5lm-T3-8Au"/>
                                 </constraints>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UK5-ff-TLJ" customClass="FancyButton" customModule="ChatRoom" customModuleProvider="target">
+                                <rect key="frame" x="35" y="311" width="305" height="45"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="OXc-Ra-HUv"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="uxV-L8-Bz3">
+                                <rect key="frame" x="35" y="55" width="305" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ql-ET-wcH" customClass="GIDSignInButton">
+                                <rect key="frame" x="152" y="391" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="googleSignIn:" destination="BYZ-38-t0r" eventType="valueChanged" id="7F2-tY-DhF"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <constraints>
                             <constraint firstItem="z7N-cU-jvS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5Bi-bG-9GF"/>
                             <constraint firstItem="t6Q-8H-WHA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="162" id="QDa-4y-2vu"/>
                             <constraint firstItem="t6Q-8H-WHA" firstAttribute="centerX" secondItem="z7N-cU-jvS" secondAttribute="centerX" id="SHB-wu-J4V"/>
                             <constraint firstItem="ooG-on-6sg" firstAttribute="top" secondItem="t6Q-8H-WHA" secondAttribute="bottom" constant="19" id="UZ2-Vb-4Df"/>
+                            <constraint firstItem="UK5-ff-TLJ" firstAttribute="leading" secondItem="ooG-on-6sg" secondAttribute="leading" id="dMt-T2-83W"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ooG-on-6sg" secondAttribute="bottom" constant="376" id="eHa-Mz-dJw"/>
                             <constraint firstItem="z7N-cU-jvS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="en2-KS-kzw"/>
+                            <constraint firstItem="UK5-ff-TLJ" firstAttribute="centerY" secondItem="z7N-cU-jvS" secondAttribute="centerY" id="gKC-eb-qO0"/>
                             <constraint firstItem="t6Q-8H-WHA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="seN-qM-TeX"/>
+                            <constraint firstItem="UK5-ff-TLJ" firstAttribute="trailing" secondItem="ooG-on-6sg" secondAttribute="trailing" id="ui3-Kq-FM5"/>
                             <constraint firstItem="z7N-cU-jvS" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="xId-wJ-6tP"/>
                             <constraint firstItem="ooG-on-6sg" firstAttribute="leading" secondItem="t6Q-8H-WHA" secondAttribute="leading" id="yYA-KB-gmg"/>
                             <constraint firstItem="ooG-on-6sg" firstAttribute="trailing" secondItem="t6Q-8H-WHA" secondAttribute="trailing" id="zPB-Fg-N6P"/>
                             <constraint firstItem="t6Q-8H-WHA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zn3-6h-i0r"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordBox" destination="ooG-on-6sg" id="wts-rK-2Xi"/>
+                        <outlet property="usernameBox" destination="t6Q-8H-WHA" id="Ql6-yt-tzD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,5 +93,6 @@
     </scenes>
     <resources>
         <image name="background" width="2560" height="1600"/>
+        <image name="instagram" width="1280" height="457"/>
     </resources>
 </document>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>350331915924-vlso2kaiq2552h4g5o86qjo9r5vsdhbs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.350331915924-vlso2kaiq2552h4g5o86qjo9r5vsdhbs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB5jly4Qw9IPOae9qwJ6Gx1b0EM3D_K8uU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>350331915924</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.keyloftstudios.ChatRoom</string>
+	<key>PROJECT_ID</key>
+	<string>chatroom-6d223</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatroom-6d223.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:350331915924:ios:9c96138ec39de482</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatroom-6d223.firebaseio.com</string>
+</dict>
+</plist>
